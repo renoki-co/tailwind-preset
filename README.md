@@ -1,9 +1,7 @@
 Laravel TailwindCSS Preset
 ==========================
 
-![CI](https://github.com/renoki-co/tailwind-preset/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/renoki-co/tailwind-preset/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/tailwind-preset/branch/master)
-[![StyleCI](https://github.styleci.io/repos/:styleci_code/shield?branch=master)](https://github.styleci.io/repos/:styleci_code)
+[![StyleCI](https://github.styleci.io/repos/281149973/shield?branch=master)](https://github.styleci.io/repos/281149973)
 [![Latest Stable Version](https://poser.pugx.org/renoki-co/tailwind-preset/v/stable)](https://packagist.org/packages/renoki-co/tailwind-preset)
 [![Total Downloads](https://poser.pugx.org/renoki-co/tailwind-preset/downloads)](https://packagist.org/packages/renoki-co/tailwind-preset)
 [![Monthly Downloads](https://poser.pugx.org/renoki-co/tailwind-preset/d/monthly)](https://packagist.org/packages/renoki-co/tailwind-preset)
