@@ -51,6 +51,10 @@ If you discover any security related issues, please email alex@renoki.org instea
 
 ## 🎉 Credits
 
+This package is inspired from [tailwindcomponents/laravel-preset](https://github.com/tailwindcomponents/laravel-preset) and [Tailwind UI](https://tailwindui.com/components).
+
+The contributors are:
+
 - [Alex Renoki](https://github.com/rennokki)
 - [All Contributors](../../contributors)
 
