@@ -35,6 +35,13 @@ If you also want the Authentication scaffolding, specify it in the command:
 $ php artisan ui tailwindcss --auth
 ```
 
+## Logo
+
+The scaffolding comes with a SVG placeholder with Laravel logo, like in the example below. Make sure to search throughout the scaffolding and replace the SVG with your logo.
+
+![](renders/login.png)
+
+
 ## 🐛 Testing
 
 ``` bash
