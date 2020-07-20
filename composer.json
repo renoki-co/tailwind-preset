@@ -1,0 +1,34 @@
+{
+    "name": "renoki-co/tailwind-preset",
+    "description": "Laravel TailwindCSS Preset extends the Laravel's UI command to add a new preset for TailwindCSS configuration, leveraged by AlpineJS.",
+    "keywords": ["laravel", "preset", "tailwindcss", "tailwind", "css"],
+    "license": "MIT",
+    "homepage": "https://github.com/renoki-co/tailwind-preset",
+    "authors": [
+        {
+            "name": "Alex Renoki",
+            "homepage": "https://github.com/rennokki",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0",
+        "laravel/ui": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenokiCo\\TailwindPreset\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RenokiCo\\TailwindPreset\\TailwindPresetServiceProvider"
+            ]
+        }
+    }
+}
