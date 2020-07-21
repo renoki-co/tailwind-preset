@@ -29,7 +29,7 @@
         </div>
       @endif
 
-      <div class="flex flex-col break-words bg-white border border-2 rounded shadow-md">
+      <div class="flex flex-col break-words bg-white border rounded shadow-md">
         <div class="w-full flex flex-wrap p-6">
           <p class="leading-normal">
             {{ __('Before proceeding, please check your email for a verification link.') }}

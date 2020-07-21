@@ -20,7 +20,7 @@
 
   <div class="flex flex-wrap justify-center mt-6">
     <div class="w-full max-w-md px-3 md:px-0">
-      <div class="flex flex-col break-words bg-white border border-2 rounded-lg shadow-md p-6">
+      <div class="flex flex-col break-words bg-white border rounded-lg shadow-md p-6">
         <form
           class="w-full"
           method="POST"
