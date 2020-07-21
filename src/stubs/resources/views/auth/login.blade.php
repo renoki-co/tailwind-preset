@@ -88,14 +88,14 @@
 
           <div class="flex mb-6">
             <label
-              class="inline-flex items-center text-sm text-gray-700"
+              class="inline-flex items-center text-sm text-gray-700 cursor-pointer"
               for="remember"
             >
               <input
                 type="checkbox"
                 name="remember"
                 id="remember"
-                class="form-checkbox" {{ old('remember') ? 'checked' : '' }}
+                class="form-checkbox cursor-pointer" {{ old('remember') ? 'checked' : '' }}
               >
               <span class="ml-2">
                 {{ __('Remember Me') }}
