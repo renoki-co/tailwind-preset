@@ -48,7 +48,7 @@
             <input
               id="email"
               type="email"
-              class="border focus:border-gray-300 focus:border-gray-500 focus:outline-none px-3 py-2 rounded-lg shadow-sm w-full @error('email') border-red-500 @enderror"
+              class="border focus:border-gray-500 focus:outline-none px-3 py-2 rounded-lg shadow-sm w-full @error('email') border-red-500 @enderror"
               name="email"
               value="{{ old('email') }}"
               required
