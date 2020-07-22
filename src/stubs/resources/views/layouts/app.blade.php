@@ -128,7 +128,10 @@
                   <button
                     @click="profileOpened = true"
                     @click.away="profileOpened = false"
-                    class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out" id="user-menu" aria-label="User menu" aria-haspopup="true"
+                    class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out"
+                    id="user-menu"
+                    aria-label="User menu"
+                    aria-haspopup="true"
                   >
                     <img
                       class="h-8 w-8 rounded-full"
