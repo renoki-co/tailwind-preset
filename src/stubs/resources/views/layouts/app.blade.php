@@ -203,7 +203,7 @@
         <div class="px-2 pt-2 pb-3">
           <a
             href="#"
-            class="bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-white transition duration-150 ease-in-out"
+            class="bg-gray-900 focus:text-white focus:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-white focus:outline-none transition duration-150 ease-in-out"
           >
             Dashboard
           </a>
