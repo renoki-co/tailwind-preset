@@ -94,13 +94,13 @@
               <div class="flex">
                 <a
                   href="#"
-                  class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  class="text-white bg-gray-900 focus:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
                 >
                   Dashboard
                 </a>
                 <a
                   href="#"
-                  class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
                 >
                   Team
                 </a>
@@ -111,13 +111,13 @@
             @guest
               <a
                 href="{{ route('login') }}"
-                class="inline-block px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 inline-block px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
               >
                 Login
               </a>
               <a
                 href="{{ route('register') }}"
-                class="inline-block ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 inline-block ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
               >
                 Register
               </a>
@@ -160,7 +160,7 @@
                     >
                       <a
                         href="#"
-                        class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                        class="text-gray-700 hover:bg-gray-100 focus:bg-gray-100 block px-4 py-2 text-sm leading-5 focus:outline-none transition duration-150 ease-in-out"
                         role="menuitem"
                       >
                         Settings
@@ -169,7 +169,7 @@
                         href="javascript:{}"
                         onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();"
-                        class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                        class="text-gray-700 hover:bg-gray-100 focus:bg-gray-100 block px-4 py-2 text-sm leading-5 focus:outline-none transition duration-150 ease-in-out"
                         role="menuitem"
                       >
                         Sign out
@@ -203,13 +203,13 @@
         <div class="px-2 pt-2 pb-3">
           <a
             href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            class="bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-white transition duration-150 ease-in-out"
           >
             Dashboard
           </a>
           <a
             href="#"
-            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
           >
             Team
           </a>
@@ -217,20 +217,20 @@
           @guest
             <a
               href="{{ route('login') }}"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
             >
               Login
             </a>
             <a
               href="{{ route('register') }}"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
             >
               Register
             </a>
           @else
             <a
               href="#"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
               role="menuitem"
             >
               Settings
@@ -240,7 +240,7 @@
               href="javascript:{}"
               onclick="event.preventDefault();
               document.getElementById('logout-form').submit();"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
               role="menuitem"
             >
               Sign out
