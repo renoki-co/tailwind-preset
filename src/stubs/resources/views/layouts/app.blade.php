@@ -94,7 +94,7 @@
               <div class="flex">
                 <a
                   href="#"
-                  class="text-white bg-gray-900 focus:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
+                  class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
                 >
                   Dashboard
                 </a>
@@ -111,13 +111,13 @@
             @guest
               <a
                 href="{{ route('login') }}"
-                class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 inline-block px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
+                class="{{ request()->routeIs('login') ? 'text-white bg-gray-900' : 'text-gray-300 hover:text-white hover:bg-gray-700' }} focus:bg-gray-700 inline-block px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
               >
                 Login
               </a>
               <a
                 href="{{ route('register') }}"
-                class="text-gray-300 hover:text-white hover:bg-gray-700 focus:bg-gray-700 inline-block ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
+                class="{{ request()->routeIs('register') ? 'text-white bg-gray-900' : 'text-gray-300 hover:text-white hover:bg-gray-700' }} focus:bg-gray-700 inline-block ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out"
               >
                 Register
               </a>
@@ -203,7 +203,7 @@
         <div class="px-2 pt-2 pb-3">
           <a
             href="#"
-            class="bg-gray-900 focus:text-white focus:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-white focus:outline-none transition duration-150 ease-in-out"
+            class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
           >
             Dashboard
           </a>
@@ -217,13 +217,13 @@
           @guest
             <a
               href="{{ route('login') }}"
-              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
+              class="{{ request()->routeIs('login') ? 'text-white bg-gray-900' : 'text-gray-300 hover:text-white hover:bg-gray-700' }} focus:bg-gray-700 focus:text-white mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
             >
               Login
             </a>
             <a
               href="{{ route('register') }}"
-              class="text-gray-300 hover:text-white hover:bg-gray-700 focus:text-white focus:bg-gray-700 mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
+              class="{{ request()->routeIs('register') ? 'text-white bg-gray-900' : 'text-gray-300 hover:text-white hover:bg-gray-700' }} focus:bg-gray-700 focus:text-white mt-1 block px-3 py-2 rounded-md text-base font-medium focus:outline-none transition duration-150 ease-in-out"
             >
               Register
             </a>
