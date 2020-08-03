@@ -75,6 +75,7 @@
               <a
                 class="text-sm text-blue-600 hover:text-blue-700 font-medium whitespace-no-wrap no-underline ml-auto"
                 href="{{ route('password.request') }}"
+                tabindex="-1"
               >
                 {{ __('Forgot your password?') }}
               </a>
