@@ -129,7 +129,7 @@
               class="border focus:border-gray-500 focus:outline-none px-3 py-2 rounded-lg shadow-sm w-full"
               name="password_confirmation"
               required
-              autocomplete="new-password"
+              autocomplete="password-confirm"
             >
           </div>
 
