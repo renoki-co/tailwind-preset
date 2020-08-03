@@ -71,6 +71,15 @@
               {{ __('Password') }}
             </label>
 
+            @if (Route::has('password.request'))
+              <a
+                class="text-sm text-blue-600 hover:text-blue-700 font-medium whitespace-no-wrap no-underline ml-auto"
+                href="{{ route('password.request') }}"
+              >
+                {{ __('Forgot your password?') }}
+              </a>
+            @endif
+
             <input
               id="password"
               type="password"
@@ -101,15 +110,6 @@
                 {{ __('Remember Me') }}
               </span>
             </label>
-
-            @if (Route::has('password.request'))
-              <a
-                class="text-sm text-blue-600 hover:text-blue-700 font-medium whitespace-no-wrap no-underline ml-auto"
-                href="{{ route('password.request') }}"
-              >
-                {{ __('Forgot your password?') }}
-              </a>
-            @endif
           </div>
 
           <div class="flex flex-wrap items-center">
